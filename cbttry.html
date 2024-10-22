@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Onome Gloria Group of schools</h1>
+    <p> Yearly examination for intenational student</p>
+    <p><i> Kindly read the instructions below </i></p>
+    <ol>
+        <li> Examination starts by <b> 9am</b></li>
+        <li> Make sure you select the right options </li>
+        <li> Ensure you put your right name </li> 
+    </ol>
+
+    <form>
+        <label for="name"> Enter your full name </label>
+        <input type="text" id="name" placeholder="full name here" name="name">
+        <label for="schoolid"> Enter your school Id  </label>
+        <input type="text" id="schoolid" placeholder="school id here" name="schoolid">
+        <label for="yearofadmission"> Select year of admission </label>
+        <select id="yearofadmission" name="yearofadmission">
+            <option value="1923"> 1923</option>
+            <option value="1930"> 1930</option>
+            <option value="1935"> 1935</option>
+            <option value="1939"> 1939</option>
+            <option value="1945"> 1945</option>
+            <option value="1955"> 1955</option>
+            <option value="1959"> 1959</option>
+        </select>
+
+        <h3> How many schools do you have in Iwo local government? </h3>
+        <input type="radio" id="noofschoolsoption1" name="noofschools" value="4">
+        <label for="noofschoolsoption1"> 4 </label>
+        <input type="radio" id="noofschoolsoption2" name="noofschools" value="3">
+        <label for="noofschoolsoption2"> 3 </label>
+        <input type="radio" id="noofschoolsoption3" name="noofschools" value="9">
+        <label for="noofschoolsoption3"> 9 </label>
+        <input type="radio" id="noofschoolsoption4" name="noofschools" value="11">
+        <label for="noofschoolsoption4"> 11 </label>
+
+
+        <h3> Select two schools that you have in Iwo local government? </h3>
+        <input type="checkbox" id="schools1" name="nameofschools" value="Abcgrammarschool">
+        <label for="schools1"> Abc grammar school </label>
+        <input type="checkbox" id="schools2" name="nameofschools" value="xyzgroupofschools">
+        <label for="schools2"> XYZ group of schools </label>
+        <input type="checkbox" id="schools3" name="nameofschools" value="qwerty">
+        <label for="schools3"> QWERTY Excellent international schools </label>
+        <input type="checkbox" id="schools4" name="nameofschools" value="dydz">
+        <label for="schools4"> DY/DZ Kiddies college </label>
+
+    </form>
+</body>
+</html>
